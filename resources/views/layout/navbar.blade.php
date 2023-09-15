@@ -5,12 +5,12 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent flex">
-      <ul class="navbar-nav me-auto mb-lg-0 m-t-5 ">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-t-5 ">
         <li class="nav-item">
           <a class="nav-link" href="{{ route('welcome') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Buku</a>
+          <a class="nav-link" href="{{ route('book.index') }}">Buku</a>
         </li>
       </ul>
     </div>
