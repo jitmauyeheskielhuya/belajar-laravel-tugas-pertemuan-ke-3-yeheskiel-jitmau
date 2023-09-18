@@ -9,7 +9,7 @@ class Book extends Model
 {
   use HasFactory;
 
-  protected $fillabel = [
+  protected $fillable = [
     'name',
     'autohor',
     'year',
